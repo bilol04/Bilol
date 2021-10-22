@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: sans-serif;
+}
+/* navbar */
+#navbar{
+  height: 86px;
+}
+#navbar > div {
+  float: left;
+}
+.internation, 
+.search {
+  width: 25%;
+}
+.logo {
+  width: 50%;
+}
+.logo  ul {
+list-style-type: none;
+height: 86px;
+}
+#navbar a {
+text-decoration: none;
+display: inline-block;
+padding: 34px 10px;
+color: black;
+text-transform: uppercase;
+font-weight: 700;
+}
+#navbar a:hover {
+background-color: orange;
+color: white;
+}
+#navbar li {
+  float: left;
+  height: 86px;
+}
+ul > li:first-child > a{
+  background-color: orange;
+  color: white !important;
+}
+#navbar a{
+  font-weight: 700;
+}
+/* home */
+.inner-home {
+  position: relative;
+}
+.inner-home img{
+  width: 100%;
+}
+.inner-header{
+  position: absolute;
+  top: calc(50% - 47px);
+  width: 100%;
+}
+.inner-header h2 {
+  font-size: 50px;
+}
+.inner-header h2 + p{
+  font-size: 25px;
+}
+.inner-header h2,
+.inner-header p{
+  color: white;
+  text-align: center;
+}
+.btn-box > div:first-child button{
+  float: right;
+}
+.btn-box div{
+  float: left;
+  width: 50%; 
+}
+.btn1{
+  background-color: silver;
+  border: none;
+  border-radius: 200px;
+  padding: 25px;
+}
+.btn2{
+  background-color: silver;
+  border: none;
+  border-radius: 200px;
+  padding: 25px;
+}
+.btn1:hover{
+  background-color: orange;
+}
+.btn2:hover{
+  background-color: orange;
+}
+/* advantages */
+
+#advantages{
+  padding: 0 45px;
+}
+.card{
+  width: 25%;
+  padding: 10px;
+  float: left;
+  min-height: 300px;
+} 
+.card:first-child .inner-card{
+background-color: orange;
+}
+.card:nth-child(2) .inner-card{
+  background-color: red;
+}
+.card:nth-child(3) .inner-card {
+  background-color: blue;
+}
+.card:last-child .inner-card{
+  background-color: aqua;
+}
